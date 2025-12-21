@@ -6,6 +6,51 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		EF493A932EF62A2A009BD9D6 /* AuthClient in Frameworks */ = {isa = PBXBuildFile; productRef = EF493A922EF62A2A009BD9D6 /* AuthClient */; };
+		EF493A952EF62A2A009BD9D6 /* AuthDataStore in Frameworks */ = {isa = PBXBuildFile; productRef = EF493A942EF62A2A009BD9D6 /* AuthDataStore */; };
+		EF493A972EF62A2A009BD9D6 /* AuthModel in Frameworks */ = {isa = PBXBuildFile; productRef = EF493A962EF62A2A009BD9D6 /* AuthModel */; };
+		EF493A992EF62A2A009BD9D6 /* AuthScreens in Frameworks */ = {isa = PBXBuildFile; productRef = EF493A982EF62A2A009BD9D6 /* AuthScreens */; };
+		EF493A9B2EF62A2A009BD9D6 /* AuthTokenProvider in Frameworks */ = {isa = PBXBuildFile; productRef = EF493A9A2EF62A2A009BD9D6 /* AuthTokenProvider */; };
+		EF493A9D2EF62A2A009BD9D6 /* AuthUI in Frameworks */ = {isa = PBXBuildFile; productRef = EF493A9C2EF62A2A009BD9D6 /* AuthUI */; };
+		EF493A9F2EF62A2A009BD9D6 /* Colors in Frameworks */ = {isa = PBXBuildFile; productRef = EF493A9E2EF62A2A009BD9D6 /* Colors */; };
+		EF493AA12EF62A2A009BD9D6 /* CoreUI in Frameworks */ = {isa = PBXBuildFile; productRef = EF493AA02EF62A2A009BD9D6 /* CoreUI */; };
+		EF493AA32EF62A2A009BD9D6 /* DebugDataStore in Frameworks */ = {isa = PBXBuildFile; productRef = EF493AA22EF62A2A009BD9D6 /* DebugDataStore */; };
+		EF493AA52EF62A2A009BD9D6 /* DebugModel in Frameworks */ = {isa = PBXBuildFile; productRef = EF493AA42EF62A2A009BD9D6 /* DebugModel */; };
+		EF493AA72EF62A2A009BD9D6 /* DebugScreens in Frameworks */ = {isa = PBXBuildFile; productRef = EF493AA62EF62A2A009BD9D6 /* DebugScreens */; };
+		EF493AA92EF62A2A009BD9D6 /* DebugUI in Frameworks */ = {isa = PBXBuildFile; productRef = EF493AA82EF62A2A009BD9D6 /* DebugUI */; };
+		EF493AAB2EF62A2A009BD9D6 /* Extensions in Frameworks */ = {isa = PBXBuildFile; productRef = EF493AAA2EF62A2A009BD9D6 /* Extensions */; };
+		EF493AAD2EF62A2B009BD9D6 /* HomeClient in Frameworks */ = {isa = PBXBuildFile; productRef = EF493AAC2EF62A2B009BD9D6 /* HomeClient */; };
+		EF493AAF2EF62A2B009BD9D6 /* HomeDataStore in Frameworks */ = {isa = PBXBuildFile; productRef = EF493AAE2EF62A2B009BD9D6 /* HomeDataStore */; };
+		EF493AB12EF62A2B009BD9D6 /* HomeModel in Frameworks */ = {isa = PBXBuildFile; productRef = EF493AB02EF62A2B009BD9D6 /* HomeModel */; };
+		EF493AB32EF62A2B009BD9D6 /* HomeScreens in Frameworks */ = {isa = PBXBuildFile; productRef = EF493AB22EF62A2B009BD9D6 /* HomeScreens */; };
+		EF493AB52EF62A2B009BD9D6 /* HomeUI in Frameworks */ = {isa = PBXBuildFile; productRef = EF493AB42EF62A2B009BD9D6 /* HomeUI */; };
+		EF493AB72EF62A2B009BD9D6 /* ImageAssets in Frameworks */ = {isa = PBXBuildFile; productRef = EF493AB62EF62A2B009BD9D6 /* ImageAssets */; };
+		EF493AB92EF62A2B009BD9D6 /* LaunchApp in Frameworks */ = {isa = PBXBuildFile; productRef = EF493AB82EF62A2B009BD9D6 /* LaunchApp */; };
+		EF493ABB2EF62A2B009BD9D6 /* LocalSettingsDataStore in Frameworks */ = {isa = PBXBuildFile; productRef = EF493ABA2EF62A2B009BD9D6 /* LocalSettingsDataStore */; };
+		EF493ABD2EF62A2B009BD9D6 /* LocalSettingsModel in Frameworks */ = {isa = PBXBuildFile; productRef = EF493ABC2EF62A2B009BD9D6 /* LocalSettingsModel */; };
+		EF493ABF2EF62A2B009BD9D6 /* LocalSettingsScreens in Frameworks */ = {isa = PBXBuildFile; productRef = EF493ABE2EF62A2B009BD9D6 /* LocalSettingsScreens */; };
+		EF493AC12EF62A2B009BD9D6 /* LocalSettingsUI in Frameworks */ = {isa = PBXBuildFile; productRef = EF493AC02EF62A2B009BD9D6 /* LocalSettingsUI */; };
+		EF493AC32EF62A2B009BD9D6 /* Logger in Frameworks */ = {isa = PBXBuildFile; productRef = EF493AC22EF62A2B009BD9D6 /* Logger */; };
+		EF493AC52EF62A2B009BD9D6 /* MediaClient in Frameworks */ = {isa = PBXBuildFile; productRef = EF493AC42EF62A2B009BD9D6 /* MediaClient */; };
+		EF493AC72EF62A2B009BD9D6 /* MediaDataStore in Frameworks */ = {isa = PBXBuildFile; productRef = EF493AC62EF62A2B009BD9D6 /* MediaDataStore */; };
+		EF493AC92EF62A2B009BD9D6 /* MediaModel in Frameworks */ = {isa = PBXBuildFile; productRef = EF493AC82EF62A2B009BD9D6 /* MediaModel */; };
+		EF493ACB2EF62A2B009BD9D6 /* MediaScreens in Frameworks */ = {isa = PBXBuildFile; productRef = EF493ACA2EF62A2B009BD9D6 /* MediaScreens */; };
+		EF493ACD2EF62A2C009BD9D6 /* MediaUI in Frameworks */ = {isa = PBXBuildFile; productRef = EF493ACC2EF62A2C009BD9D6 /* MediaUI */; };
+		EF493ACF2EF62A2C009BD9D6 /* NotificationsClient in Frameworks */ = {isa = PBXBuildFile; productRef = EF493ACE2EF62A2C009BD9D6 /* NotificationsClient */; };
+		EF493AD12EF62A2C009BD9D6 /* NotificationsDataStore in Frameworks */ = {isa = PBXBuildFile; productRef = EF493AD02EF62A2C009BD9D6 /* NotificationsDataStore */; };
+		EF493AD32EF62A2C009BD9D6 /* NotificationsModel in Frameworks */ = {isa = PBXBuildFile; productRef = EF493AD22EF62A2C009BD9D6 /* NotificationsModel */; };
+		EF493AD52EF62A2C009BD9D6 /* NotificationsUI in Frameworks */ = {isa = PBXBuildFile; productRef = EF493AD42EF62A2C009BD9D6 /* NotificationsUI */; };
+		EF493AD72EF62A2C009BD9D6 /* SampleData in Frameworks */ = {isa = PBXBuildFile; productRef = EF493AD62EF62A2C009BD9D6 /* SampleData */; };
+		EF493AD92EF62A2C009BD9D6 /* UserClient in Frameworks */ = {isa = PBXBuildFile; productRef = EF493AD82EF62A2C009BD9D6 /* UserClient */; };
+		EF493ADB2EF62A2C009BD9D6 /* UserDataStore in Frameworks */ = {isa = PBXBuildFile; productRef = EF493ADA2EF62A2C009BD9D6 /* UserDataStore */; };
+		EF493ADD2EF62A2C009BD9D6 /* UserModel in Frameworks */ = {isa = PBXBuildFile; productRef = EF493ADC2EF62A2C009BD9D6 /* UserModel */; };
+		EF493ADF2EF62A2C009BD9D6 /* UserScreens in Frameworks */ = {isa = PBXBuildFile; productRef = EF493ADE2EF62A2C009BD9D6 /* UserScreens */; };
+		EF493AE12EF62A2D009BD9D6 /* UserUI in Frameworks */ = {isa = PBXBuildFile; productRef = EF493AE02EF62A2D009BD9D6 /* UserUI */; };
+		EF493AE32EF62A2D009BD9D6 /* UtilityModel in Frameworks */ = {isa = PBXBuildFile; productRef = EF493AE22EF62A2D009BD9D6 /* UtilityModel */; };
+		EF493AE52EF62A2D009BD9D6 /* UtilityScreens in Frameworks */ = {isa = PBXBuildFile; productRef = EF493AE42EF62A2D009BD9D6 /* UtilityScreens */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		EF4935E02EEE0F6A009BD9D6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -37,6 +82,56 @@
 			);
 			target = EF4935C82EEE0F69009BD9D6 /* KaseyTemplate */;
 		};
+		EF4937C62EF397DC009BD9D6 /* Exceptions for "Packages" folder in "KaseyTemplate" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Assets/ImageAssets,
+				Assets/SampleData,
+				Auth/AuthClient,
+				Auth/AuthDataStore,
+				Auth/AuthModel,
+				Auth/AuthScreens,
+				Auth/AuthTokenProvider,
+				Auth/AuthUI,
+				Debug/DebugDataStore,
+				Debug/DebugModel,
+				Debug/DebugScreens,
+				Debug/DebugUI,
+				Home/HomeClient,
+				Home/HomeDataStore,
+				Home/HomeModel,
+				Home/HomeScreens,
+				Home/HomeUI,
+				LaunchApp/LaunchApp,
+				LocalSettings/LocalSettingsDataStore,
+				LocalSettings/LocalSettingsModel,
+				LocalSettings/LocalSettingsScreens,
+				LocalSettings/LocalSettingsUI,
+				Media/MediaClient,
+				Media/MediaDataStore,
+				Media/MediaModel,
+				Media/MediaScreens,
+				Media/MediaUI,
+				Notifications/NotificationsClient,
+				Notifications/NotificationsDataStore,
+				Notifications/NotificationsModel,
+				Notifications/NotificationsUI,
+				UI/Colors,
+				UI/CoreUI,
+				UI/ImageLoader,
+				User/UserClient,
+				User/UserDataStore,
+				User/UserModel,
+				User/UserScreens,
+				User/UserUI,
+				Utility/Extensions,
+				Utility/HTTP,
+				Utility/Logger,
+				Utility/UtilityModel,
+				Utility/UtilityScreens,
+			);
+			target = EF4935C82EEE0F69009BD9D6 /* KaseyTemplate */;
+		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -58,6 +153,14 @@
 			path = KaseyTemplateUITests;
 			sourceTree = "<group>";
 		};
+		EF4937C52EF397DC009BD9D6 /* Packages */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				EF4937C62EF397DC009BD9D6 /* Exceptions for "Packages" folder in "KaseyTemplate" target */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +168,48 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF493AC32EF62A2B009BD9D6 /* Logger in Frameworks */,
+				EF493AA92EF62A2A009BD9D6 /* DebugUI in Frameworks */,
+				EF493AC12EF62A2B009BD9D6 /* LocalSettingsUI in Frameworks */,
+				EF493AD72EF62A2C009BD9D6 /* SampleData in Frameworks */,
+				EF493AC92EF62A2B009BD9D6 /* MediaModel in Frameworks */,
+				EF493AE52EF62A2D009BD9D6 /* UtilityScreens in Frameworks */,
+				EF493ADF2EF62A2C009BD9D6 /* UserScreens in Frameworks */,
+				EF493AAB2EF62A2A009BD9D6 /* Extensions in Frameworks */,
+				EF493AAF2EF62A2B009BD9D6 /* HomeDataStore in Frameworks */,
+				EF493ABD2EF62A2B009BD9D6 /* LocalSettingsModel in Frameworks */,
+				EF493AB12EF62A2B009BD9D6 /* HomeModel in Frameworks */,
+				EF493A992EF62A2A009BD9D6 /* AuthScreens in Frameworks */,
+				EF493ACD2EF62A2C009BD9D6 /* MediaUI in Frameworks */,
+				EF493ABF2EF62A2B009BD9D6 /* LocalSettingsScreens in Frameworks */,
+				EF493AD52EF62A2C009BD9D6 /* NotificationsUI in Frameworks */,
+				EF493A9B2EF62A2A009BD9D6 /* AuthTokenProvider in Frameworks */,
+				EF493AA52EF62A2A009BD9D6 /* DebugModel in Frameworks */,
+				EF493A9D2EF62A2A009BD9D6 /* AuthUI in Frameworks */,
+				EF493AB32EF62A2B009BD9D6 /* HomeScreens in Frameworks */,
+				EF493ACF2EF62A2C009BD9D6 /* NotificationsClient in Frameworks */,
+				EF493AB72EF62A2B009BD9D6 /* ImageAssets in Frameworks */,
+				EF493AE32EF62A2D009BD9D6 /* UtilityModel in Frameworks */,
+				EF493A952EF62A2A009BD9D6 /* AuthDataStore in Frameworks */,
+				EF493A932EF62A2A009BD9D6 /* AuthClient in Frameworks */,
+				EF493ADB2EF62A2C009BD9D6 /* UserDataStore in Frameworks */,
+				EF493AC52EF62A2B009BD9D6 /* MediaClient in Frameworks */,
+				EF493AB52EF62A2B009BD9D6 /* HomeUI in Frameworks */,
+				EF493AB92EF62A2B009BD9D6 /* LaunchApp in Frameworks */,
+				EF493ABB2EF62A2B009BD9D6 /* LocalSettingsDataStore in Frameworks */,
+				EF493AD12EF62A2C009BD9D6 /* NotificationsDataStore in Frameworks */,
+				EF493ADD2EF62A2C009BD9D6 /* UserModel in Frameworks */,
+				EF493AC72EF62A2B009BD9D6 /* MediaDataStore in Frameworks */,
+				EF493AD32EF62A2C009BD9D6 /* NotificationsModel in Frameworks */,
+				EF493AD92EF62A2C009BD9D6 /* UserClient in Frameworks */,
+				EF493AAD2EF62A2B009BD9D6 /* HomeClient in Frameworks */,
+				EF493AA12EF62A2A009BD9D6 /* CoreUI in Frameworks */,
+				EF493A972EF62A2A009BD9D6 /* AuthModel in Frameworks */,
+				EF493AE12EF62A2D009BD9D6 /* UserUI in Frameworks */,
+				EF493AA72EF62A2A009BD9D6 /* DebugScreens in Frameworks */,
+				EF493AA32EF62A2A009BD9D6 /* DebugDataStore in Frameworks */,
+				EF493A9F2EF62A2A009BD9D6 /* Colors in Frameworks */,
+				EF493ACB2EF62A2B009BD9D6 /* MediaScreens in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,9 +233,11 @@
 		EF4935C02EEE0F69009BD9D6 = {
 			isa = PBXGroup;
 			children = (
+				EF4937C52EF397DC009BD9D6 /* Packages */,
 				EF4935CB2EEE0F69009BD9D6 /* KaseyTemplate */,
 				EF4935E22EEE0F6A009BD9D6 /* KaseyTemplateTests */,
 				EF4935EC2EEE0F6A009BD9D6 /* KaseyTemplateUITests */,
+				EF4937922EF32F91009BD9D6 /* Frameworks */,
 				EF4935CA2EEE0F69009BD9D6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -103,6 +250,13 @@
 				EF4935E92EEE0F6A009BD9D6 /* KaseyTemplateUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		EF4937922EF32F91009BD9D6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,9 +276,52 @@
 			);
 			fileSystemSynchronizedGroups = (
 				EF4935CB2EEE0F69009BD9D6 /* KaseyTemplate */,
+				EF4937C52EF397DC009BD9D6 /* Packages */,
 			);
 			name = KaseyTemplate;
 			packageProductDependencies = (
+				EF493A922EF62A2A009BD9D6 /* AuthClient */,
+				EF493A942EF62A2A009BD9D6 /* AuthDataStore */,
+				EF493A962EF62A2A009BD9D6 /* AuthModel */,
+				EF493A982EF62A2A009BD9D6 /* AuthScreens */,
+				EF493A9A2EF62A2A009BD9D6 /* AuthTokenProvider */,
+				EF493A9C2EF62A2A009BD9D6 /* AuthUI */,
+				EF493A9E2EF62A2A009BD9D6 /* Colors */,
+				EF493AA02EF62A2A009BD9D6 /* CoreUI */,
+				EF493AA22EF62A2A009BD9D6 /* DebugDataStore */,
+				EF493AA42EF62A2A009BD9D6 /* DebugModel */,
+				EF493AA62EF62A2A009BD9D6 /* DebugScreens */,
+				EF493AA82EF62A2A009BD9D6 /* DebugUI */,
+				EF493AAA2EF62A2A009BD9D6 /* Extensions */,
+				EF493AAC2EF62A2B009BD9D6 /* HomeClient */,
+				EF493AAE2EF62A2B009BD9D6 /* HomeDataStore */,
+				EF493AB02EF62A2B009BD9D6 /* HomeModel */,
+				EF493AB22EF62A2B009BD9D6 /* HomeScreens */,
+				EF493AB42EF62A2B009BD9D6 /* HomeUI */,
+				EF493AB62EF62A2B009BD9D6 /* ImageAssets */,
+				EF493AB82EF62A2B009BD9D6 /* LaunchApp */,
+				EF493ABA2EF62A2B009BD9D6 /* LocalSettingsDataStore */,
+				EF493ABC2EF62A2B009BD9D6 /* LocalSettingsModel */,
+				EF493ABE2EF62A2B009BD9D6 /* LocalSettingsScreens */,
+				EF493AC02EF62A2B009BD9D6 /* LocalSettingsUI */,
+				EF493AC22EF62A2B009BD9D6 /* Logger */,
+				EF493AC42EF62A2B009BD9D6 /* MediaClient */,
+				EF493AC62EF62A2B009BD9D6 /* MediaDataStore */,
+				EF493AC82EF62A2B009BD9D6 /* MediaModel */,
+				EF493ACA2EF62A2B009BD9D6 /* MediaScreens */,
+				EF493ACC2EF62A2C009BD9D6 /* MediaUI */,
+				EF493ACE2EF62A2C009BD9D6 /* NotificationsClient */,
+				EF493AD02EF62A2C009BD9D6 /* NotificationsDataStore */,
+				EF493AD22EF62A2C009BD9D6 /* NotificationsModel */,
+				EF493AD42EF62A2C009BD9D6 /* NotificationsUI */,
+				EF493AD62EF62A2C009BD9D6 /* SampleData */,
+				EF493AD82EF62A2C009BD9D6 /* UserClient */,
+				EF493ADA2EF62A2C009BD9D6 /* UserDataStore */,
+				EF493ADC2EF62A2C009BD9D6 /* UserModel */,
+				EF493ADE2EF62A2C009BD9D6 /* UserScreens */,
+				EF493AE02EF62A2D009BD9D6 /* UserUI */,
+				EF493AE22EF62A2D009BD9D6 /* UtilityModel */,
+				EF493AE42EF62A2D009BD9D6 /* UtilityScreens */,
 			);
 			productName = KaseyTemplate;
 			productReference = EF4935C92EEE0F69009BD9D6 /* KaseyTemplate.app */;
@@ -208,6 +405,8 @@
 			);
 			mainGroup = EF4935C02EEE0F69009BD9D6;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = EF4935CA2EEE0F69009BD9D6 /* Products */;
 			projectDirPath = "";
@@ -294,14 +493,14 @@
 				INFOPLIST_FILE = KaseyTemplate/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.baughanapps.KaseyTemplate;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
@@ -326,14 +525,14 @@
 				INFOPLIST_FILE = KaseyTemplate/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.baughanapps.KaseyTemplate;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
@@ -591,6 +790,177 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EF493A922EF62A2A009BD9D6 /* AuthClient */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AuthClient;
+		};
+		EF493A942EF62A2A009BD9D6 /* AuthDataStore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AuthDataStore;
+		};
+		EF493A962EF62A2A009BD9D6 /* AuthModel */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AuthModel;
+		};
+		EF493A982EF62A2A009BD9D6 /* AuthScreens */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AuthScreens;
+		};
+		EF493A9A2EF62A2A009BD9D6 /* AuthTokenProvider */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AuthTokenProvider;
+		};
+		EF493A9C2EF62A2A009BD9D6 /* AuthUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AuthUI;
+		};
+		EF493A9E2EF62A2A009BD9D6 /* Colors */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Colors;
+		};
+		EF493AA02EF62A2A009BD9D6 /* CoreUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = CoreUI;
+		};
+		EF493AA22EF62A2A009BD9D6 /* DebugDataStore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = DebugDataStore;
+		};
+		EF493AA42EF62A2A009BD9D6 /* DebugModel */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = DebugModel;
+		};
+		EF493AA62EF62A2A009BD9D6 /* DebugScreens */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = DebugScreens;
+		};
+		EF493AA82EF62A2A009BD9D6 /* DebugUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = DebugUI;
+		};
+		EF493AAA2EF62A2A009BD9D6 /* Extensions */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Extensions;
+		};
+		EF493AAC2EF62A2B009BD9D6 /* HomeClient */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = HomeClient;
+		};
+		EF493AAE2EF62A2B009BD9D6 /* HomeDataStore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = HomeDataStore;
+		};
+		EF493AB02EF62A2B009BD9D6 /* HomeModel */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = HomeModel;
+		};
+		EF493AB22EF62A2B009BD9D6 /* HomeScreens */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = HomeScreens;
+		};
+		EF493AB42EF62A2B009BD9D6 /* HomeUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = HomeUI;
+		};
+		EF493AB62EF62A2B009BD9D6 /* ImageAssets */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ImageAssets;
+		};
+		EF493AB82EF62A2B009BD9D6 /* LaunchApp */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = LaunchApp;
+		};
+		EF493ABA2EF62A2B009BD9D6 /* LocalSettingsDataStore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = LocalSettingsDataStore;
+		};
+		EF493ABC2EF62A2B009BD9D6 /* LocalSettingsModel */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = LocalSettingsModel;
+		};
+		EF493ABE2EF62A2B009BD9D6 /* LocalSettingsScreens */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = LocalSettingsScreens;
+		};
+		EF493AC02EF62A2B009BD9D6 /* LocalSettingsUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = LocalSettingsUI;
+		};
+		EF493AC22EF62A2B009BD9D6 /* Logger */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Logger;
+		};
+		EF493AC42EF62A2B009BD9D6 /* MediaClient */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = MediaClient;
+		};
+		EF493AC62EF62A2B009BD9D6 /* MediaDataStore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = MediaDataStore;
+		};
+		EF493AC82EF62A2B009BD9D6 /* MediaModel */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = MediaModel;
+		};
+		EF493ACA2EF62A2B009BD9D6 /* MediaScreens */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = MediaScreens;
+		};
+		EF493ACC2EF62A2C009BD9D6 /* MediaUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = MediaUI;
+		};
+		EF493ACE2EF62A2C009BD9D6 /* NotificationsClient */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = NotificationsClient;
+		};
+		EF493AD02EF62A2C009BD9D6 /* NotificationsDataStore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = NotificationsDataStore;
+		};
+		EF493AD22EF62A2C009BD9D6 /* NotificationsModel */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = NotificationsModel;
+		};
+		EF493AD42EF62A2C009BD9D6 /* NotificationsUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = NotificationsUI;
+		};
+		EF493AD62EF62A2C009BD9D6 /* SampleData */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SampleData;
+		};
+		EF493AD82EF62A2C009BD9D6 /* UserClient */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = UserClient;
+		};
+		EF493ADA2EF62A2C009BD9D6 /* UserDataStore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = UserDataStore;
+		};
+		EF493ADC2EF62A2C009BD9D6 /* UserModel */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = UserModel;
+		};
+		EF493ADE2EF62A2C009BD9D6 /* UserScreens */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = UserScreens;
+		};
+		EF493AE02EF62A2D009BD9D6 /* UserUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = UserUI;
+		};
+		EF493AE22EF62A2D009BD9D6 /* UtilityModel */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = UtilityModel;
+		};
+		EF493AE42EF62A2D009BD9D6 /* UtilityScreens */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = UtilityScreens;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = EF4935C12EEE0F69009BD9D6 /* Project object */;
 }

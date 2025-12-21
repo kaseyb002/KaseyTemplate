@@ -1,0 +1,578 @@
+[
+    {
+    "id": "1",
+    "name": "Mozart",
+    "bio": "Austrian composer and pianist, Mozart was a prolific and influential figure in classical music, known for works like 'The Magic Flute' and 'Symphony No. 40'.",
+    "imageURL": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Wolfgang-amadeus-mozart_1.jpg"
+  },
+  {
+    "id": "2",
+    "name": "Beethoven",
+    "bio": "German composer and pianist, Beethoven was a crucial figure in the transition between the Classical and Romantic eras in Western music.",
+    "imageURL": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Beethoven.jpg"
+  },
+  {
+    "id": "3",
+    "name": "Jobs",
+    "bio": "Co-founder and former CEO of Apple Inc., Steve Jobs was a pioneer of the personal computer revolution and a key figure in the development of the iPhone.",
+    "imageURL": "https://upload.wikimedia.org/wikipedia/commons/8/83/Steve_Jobs_Headshot_2010-CROP.jpg"
+  },
+  {
+    "id": "4",
+    "name": "Hayek",
+    "bio": "Austrian-British economist and philosopher known for his defense of classical liberalism and free-market capitalism.",
+    "imageURL": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Friedrich_Hayek_portrait.jpg"
+  },
+  {
+    "id": "5",
+    "name": "Friedman",
+    "bio": "American economist and statistician who received the 1976 Nobel Prize in Economic Sciences for his research on consumption analysis and monetary history.",
+    "imageURL": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Miltonfriedman.jpg"
+  },
+  {
+    "id": "6",
+    "name": "Smith",
+    "bio": "Scottish economist and philosopher, widely regarded as the father of modern economics and known for his work 'The Wealth of Nations'.",
+    "imageURL": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Adam_Smith_The_Muir_portrait.jpg"
+  },
+  {
+    "id": "7",
+    "name": "Dostoevsky",
+    "bio": "Russian novelist and philosopher, renowned for works like 'Crime and Punishment' and 'The Brothers Karamazov'.",
+    "imageURL": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Dostoevsky_1872.jpg"
+  },
+  {
+    "id": "8",
+    "name": "Hume",
+    "bio": "Scottish Enlightenment philosopher, historian, and essayist known for his philosophical empiricism and skepticism.",
+    "imageURL": "https://upload.wikimedia.org/wikipedia/commons/3/3b/David_Hume.jpg"
+  },
+  {
+    "id": "9",
+    "name": "Epstein",
+    "bio": "American legal scholar known for his writings on torts, contracts, and property rights, and a senior fellow at the Hoover Institution.",
+    "imageURL": "https://www.hoover.org/sites/default/files/styles/large/public/person_images/richard-epstein.jpg"
+  },
+  {
+    "id": "10",
+    "name": "Coase",
+    "bio": "British economist and author of 'The Nature of the Firm', awarded the Nobel Prize in Economic Sciences in 1991.",
+    "imageURL": "https://www.nobelprize.org/images/coase-12923-portrait-medium.jpg"
+  },
+  {
+    "id": "11",
+    "name": "Da Vinci",
+    "bio": "Italian polymath of the Renaissance era, known for masterpieces like the 'Mona Lisa' and 'The Last Supper'.",
+    "imageURL": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Leonardo_da_Vinci_-_presumed_self-portrait_-_WGA12798.jpg"
+  },
+  {
+    "id": "12",
+    "name": "Rembrandt",
+    "bio": "Dutch Golden Age painter and etcher, renowned for his portraits and use of light and shadow.",
+    "imageURL": "https://www.metmuseum.org/-/media/images/art/collection-landing-page/portraits/rembrandt-van-rijn.jpg"
+  },
+  {
+    "id": "13",
+    "name": "Einstein",
+    "bio": "Theoretical physicist who developed the theory of relativity, a pillar of modern physics.",
+    "imageURL": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Albert_Einstein_Head.jpg"
+  },
+  {
+    "id": "14",
+    "name": "Curie",
+    "bio": "Physicist and chemist who conducted pioneering research on radioactivity; first woman to win a Nobel Prize.",
+    "imageURL": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Marie_Curie_c._1920s.jpg"
+  },
+  {
+    "id": "15",
+    "name": "Newton",
+    "bio": "Mathematician and physicist recognized for formulating the laws of motion and universal gravitation.",
+    "imageURL": "https://upload.wikimedia.org/wikipedia/commons/3/39/Sir_Isaac_Newton_%281643-1727%29.jpg"
+  },
+  {
+    "id": "16",
+    "name": "Darwin",
+    "bio": "Naturalist and biologist known for his theory of evolution by natural selection.",
+    "imageURL": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Charles_Darwin_by_G._Richmond.jpg"
+  },
+  {
+    "id": "17",
+    "name": "Lovelace",
+    "bio": "Mathematician considered the world's first computer programmer for her work on Charles Babbage's early mechanical computer.",
+    "imageURL": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Ada_Lovelace_portrait.jpg"
+  },
+  {
+    "id": "18",
+    "name": "Hawking",
+    "bio": "Theoretical physicist and cosmologist known for his work on black holes and author of 'A Brief History of Time'.",
+    "imageURL": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Stephen_Hawking.StarChild.jpg"
+  },
+  {
+    "id": "19",
+    "name": "Turing",
+    "bio": "Mathematician and logician who is considered the father of theoretical computer science and artificial intelligence.",
+    "imageURL": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Alan_Turing_Aged_16.jpg"
+  },
+  {
+    "id": "24",
+    "name": "Branson",
+    "bio": "Entrepreneur and founder of the Virgin Group, encompassing diverse businesses.",
+    "imageURL": "https://www.npg.org.uk/collections/search/person/mp06548/sir-richard-charles-nicholas-branson"
+  },
+  {
+    "id": "25",
+    "name": "Picasso",
+    "bio": "Spanish painter and sculptor, co-founder of the Cubist movement.",
+    "imageURL": "https://www.gettyimages.com/photos/pablo-picasso"
+  },
+  {
+    "id": "26",
+    "name": "Van Gogh",
+    "bio": "Dutch post-impressionist painter known for works like 'Starry Night'.",
+    "imageURL": "https://www.vangoghmuseum.nl/en/art-and-stories/stories/all-stories/5-things-you-need-to-know-about-van-goghs-self-portraits"
+  },
+  {
+    "id": "27",
+    "name": "Monet",
+    "bio": "French painter and founder of French Impressionist painting.",
+    "imageURL": "https://www.gettyimages.com/photos/claude-monet"
+  },
+  {
+    "id": "28",
+    "name": "Warhol",
+    "bio": "American artist and leading figure in the visual art movement known as pop art.",
+    "imageURL": "https://www.gettyimages.com/photos/andy-warhol"
+  },
+  {
+    "id": "29",
+    "name": "O'Keeffe",
+    "bio": "American artist known for her paintings of enlarged flowers and New Mexico landscapes.",
+    "imageURL": "https://www.gettyimages.com/photos/georgia-okeeffe"
+  },
+  {
+    "id": "30",
+    "name": "Angelou",
+    "bio": "Poet, memoirist, and civil rights activist known for 'I Know Why the Caged Bird Sings'.",
+    "imageURL": "https://www.gettyimages.com/photos/maya-angelou"
+  },
+  {
+    "id": "31",
+    "name": "Shakespeare",
+    "bio": "English playwright and poet, widely regarded as the greatest writer in the English language.",
+    "imageURL": "https://www.npg.org.uk/collections/search/portrait/mw11574/William-Shakespeare"
+  },
+  {
+    "id": "32",
+    "name": "Hemingway",
+    "bio": "Novelist and short-story writer known for works like 'The Old Man and the Sea'.",
+    "imageURL": "https://karsh.org/photographs/ernest-hemingway/"
+  },
+  {
+    "id": "33",
+    "name": "Austen",
+    "bio": "English novelist known for her six major novels including 'Pride and Prejudice'.",
+    "imageURL": "https://www.npg.org.uk/collections/search/portrait/mw00230/Jane-Austen"
+  },
+  {
+    "id": "34",
+    "name": "Dickens",
+    "bio": "English writer and social critic, created some of the world's best-known fictional characters.",
+    "imageURL": "https://www.npg.org.uk/collections/search/person/mp01294/charles-dickens"
+  },
+  {
+    "id": "35",
+    "name": "Woolf",
+    "bio": "English writer and modernist, author of 'Mrs. Dalloway' and 'To the Lighthouse'.",
+    "imageURL": "https://www.gettyimages.com/photos/virginia-woolf"
+  },
+  {
+    "id": "36",
+    "name": "Frost",
+    "bio": "American poet known for his depictions of rural New England life.",
+    "imageURL": "https://www.gettyimages.com/photos/robert-frost"
+  },
+  {
+    "id": "37",
+    "name": "Plato",
+    "bio": "Greek philosopher, student of Socrates, and teacher of Aristotle, known for founding the Academy in Athens.",
+    "imageURL": "https://www.gettyimages.com/photos/plato-philosopher"
+  },
+  {
+    "id": "38",
+    "name": "Aristotle",
+    "bio": "Greek philosopher and polymath, made lasting contributions to logic, metaphysics, ethics, and politics.",
+    "imageURL": "https://www.gettyimages.com/photos/aristotle-philosopher"
+  },
+  {
+    "id": "39",
+    "name": "Socrates",
+    "bio": "Classical Greek philosopher credited as one of the founders of Western philosophy.",
+    "imageURL": "https://www.gettyimages.com/photos/socrates-philosopher"
+  },
+  {
+    "id": "40",
+    "name": "Descartes",
+    "bio": "French philosopher, mathematician, and scientist, famous for 'Cogito, ergo sum'.",
+    "imageURL": "https://www.biography.com/scholar/rene-descartes"
+  },
+  {
+    "id": "41",
+    "name": "Kant",
+    "bio": "German philosopher who developed the theory of transcendental idealism and wrote 'Critique of Pure Reason'.",
+    "imageURL": "https://www.biography.com/scholar/immanuel-kant"
+  },
+  {
+    "id": "42",
+    "name": "Nietzsche",
+    "bio": "German philosopher, cultural critic, and philologist known for his ideas on nihilism and the Übermensch.",
+    "imageURL": "https://www.biography.com/scholar/friedrich-nietzsche"
+  },
+  {
+    "id": "43",
+    "name": "Locke",
+    "bio": "English philosopher and physician, widely regarded as the father of Liberalism.",
+    "imageURL": "https://www.biography.com/scholar/john-locke"
+  },
+  {
+    "id": "44",
+    "name": "Rousseau",
+    "bio": "Genevan philosopher and writer, influential in the Enlightenment and French Revolution.",
+    "imageURL": "https://www.biography.com/scholar/jean-jacques-rousseau"
+  },
+  {
+    "id": "45",
+    "name": "Franklin",
+    "bio": "Founding Father of the U.S., inventor, and diplomat, known for his experiments with electricity.",
+    "imageURL": "https://www.biography.com/political-figure/benjamin-franklin"
+  },
+  {
+    "id": "46",
+    "name": "Jefferson",
+    "bio": "Principal author of the Declaration of Independence and third U.S. president.",
+    "imageURL": "https://www.biography.com/us-president/thomas-jefferson"
+  },
+  {
+    "id": "47",
+    "name": "Lincoln",
+    "bio": "16th President of the United States, led the nation during the Civil War and abolished slavery.",
+    "imageURL": "https://www.biography.com/us-president/abraham-lincoln"
+  },
+  {
+    "id": "48",
+    "name": "Washington",
+    "bio": "First U.S. president and commander of the Continental Army during the American Revolutionary War.",
+    "imageURL": "https://www.biography.com/us-president/george-washington"
+  },
+  {
+    "id": "49",
+    "name": "Mandela",
+    "bio": "South African anti-apartheid revolutionary and former president, symbol of peace and reconciliation.",
+    "imageURL": "https://www.biography.com/political-figure/nelson-mandela"
+  },
+  {
+    "id": "50",
+    "name": "King",
+    "bio": "American Baptist minister and activist, leader in the Civil Rights Movement, known for 'I Have a Dream'.",
+    "imageURL": "https://www.biography.com/activist/martin-luther-king-jr"
+  },
+  {
+    "id": "51",
+    "name": "Gandhi",
+    "bio": "Leader of India’s nonviolent independence movement against British rule.",
+    "imageURL": "https://www.biography.com/activist/mahatma-gandhi"
+  },
+  {
+    "id": "52",
+    "name": "Theresa",
+    "bio": "Catholic nun and missionary known for her humanitarian work and canonized as Saint Teresa of Calcutta.",
+    "imageURL": "https://www.biography.com/religious-figure/mother-teresa"
+  },
+  {
+    "id": "53",
+    "name": "Tubman",
+    "bio": "Abolitionist and political activist who rescued enslaved people using the Underground Railroad.",
+    "imageURL": "https://www.biography.com/activist/harriet-tubman"
+  },
+  {
+    "id": "54",
+    "name": "Nightingale",
+    "bio": "Founder of modern nursing and a reformer of hospital sanitation methods.",
+    "imageURL": "https://www.biography.com/scientist/florence-nightingale"
+  },
+  {
+    "id": "55",
+    "name": "Carver",
+    "bio": "Agricultural scientist and inventor who promoted alternative crops to cotton.",
+    "imageURL": "https://www.biography.com/scientist/george-washington-carver"
+  },
+  {
+    "id": "56",
+    "name": "Tesla",
+    "bio": "Inventor and engineer known for contributions to AC electricity and numerous innovations.",
+    "imageURL": "https://www.biography.com/inventor/nikola-tesla"
+  },
+  {
+    "id": "57",
+    "name": "Edison",
+    "bio": "Prolific American inventor best known for the electric light bulb and phonograph.",
+    "imageURL": "https://www.biography.com/inventor/thomas-edison"
+  },
+  {
+    "id": "58",
+    "name": "Pasteur",
+    "bio": "French chemist and microbiologist known for discoveries of vaccination and pasteurization.",
+    "imageURL": "https://www.biography.com/scientist/louis-pasteur"
+  },
+  {
+    "id": "59",
+    "name": "Fleming",
+    "bio": "Scottish biologist and pharmacologist who discovered penicillin.",
+    "imageURL": "https://www.biography.com/scientist/alexander-fleming"
+  },
+  {
+    "id": "60",
+    "name": "Bohr",
+    "bio": "Danish physicist who made foundational contributions to understanding atomic structure and quantum theory.",
+    "imageURL": "https://www.biography.com/scientist/niels-bohr"
+  },
+  {
+    "id": "61",
+    "name": "Copernicus",
+    "bio": "Polish astronomer who formulated a heliocentric model of the universe.",
+    "imageURL": "https://www.biography.com/scientist/nicolaus-copernicus"
+  },
+  {
+    "id": "62",
+    "name": "Galilei",
+    "bio": "Italian physicist and astronomer, known as the 'father of observational astronomy'.",
+    "imageURL": "https://www.biography.com/scientist/galileo-galilei"
+  },
+  {
+    "id": "63",
+    "name": "Kepler",
+    "bio": "German astronomer who established laws of planetary motion.",
+    "imageURL": "https://www.biography.com/scientist/johannes-kepler"
+  },
+  {
+    "id": "64",
+    "name": "Faraday",
+    "bio": "English scientist who contributed to electromagnetism and electrochemistry.",
+    "imageURL": "https://www.biography.com/scientist/michael-faraday"
+  },
+  {
+    "id": "65",
+    "name": "Maxwell",
+    "bio": "Scottish scientist known for formulating the classical theory of electromagnetic radiation.",
+    "imageURL": "https://www.biography.com/scientist/james-clerk-maxwell"
+  },
+  {
+    "id": "66",
+    "name": "Mendel",
+    "bio": "Austrian scientist and monk, founder of the modern science of genetics.",
+    "imageURL": "https://www.biography.com/scientist/gregor-mendel"
+  },
+  {
+    "id": "67",
+    "name": "Lavoisier",
+    "bio": "French chemist known as the 'father of modern chemistry'.",
+    "imageURL": "https://www.biography.com/scientist/antoine-lavoisier"
+  },
+  {
+    "id": "68",
+    "name": "Planck",
+    "bio": "German physicist who originated quantum theory.",
+    "imageURL": "https://www.biography.com/scientist/max-planck"
+  },
+  {
+    "id": "69",
+    "name": "Heisenberg",
+    "bio": "German physicist and pioneer of quantum mechanics.",
+    "imageURL": "https://www.biography.com/scientist/werner-heisenberg"
+  },
+  {
+    "id": "70",
+    "name": "Fermi",
+    "bio": "Italian-American physicist who created the first nuclear reactor.",
+    "imageURL": "https://www.biography.com/scientist/enrico-fermi"
+  },
+  {
+    "id": "71",
+    "name": "Bohr",
+    "bio": "Danish physicist who made foundational contributions to understanding atomic structure.",
+    "imageURL": "https://www.biography.com/scientist/niels-bohr"
+  },
+  {
+    "id": "72",
+    "name": "Dirac",
+    "bio": "English physicist who made fundamental contributions to quantum mechanics.",
+    "imageURL": "https://www.biography.com/scientist/paul-dirac"
+  },
+  {
+    "id": "73",
+    "name": "Schrodinger",
+    "bio": "Austrian physicist known for his contributions to quantum theory.",
+    "imageURL": "https://www.biography.com/scientist/erwin-schrodinger"
+  },
+  {
+    "id": "74",
+    "name": "Rutherford",
+    "bio": "New Zealand-born physicist who became known as the father of nuclear physics.",
+    "imageURL": "https://www.biography.com/scientist/ernest-rutherford"
+  },
+  {
+    "id": "75",
+    "name": "Marconi",
+    "bio": "Italian inventor and electrical engineer known for his work on long-distance radio transmission.",
+    "imageURL": "https://www.biography.com/inventor/guglielmo-marconi"
+  },
+  {
+    "id": "76",
+    "name": "Eddington",
+    "bio": "English astronomer, physicist, and mathematician known for his work on the theory of relativity.",
+    "imageURL": "https://www.biography.com/scientist/arthur-eddington"
+  },
+  {
+    "id": "77",
+    "name": "Hubble",
+    "bio": "American astronomer who played a crucial role in establishing the field of extragalactic astronomy.",
+    "imageURL": "https://www.biography.com/scientist/edwin-hubble"
+  },
+  {
+    "id": "78",
+    "name": "Oppenheimer",
+    "bio": "American theoretical physicist and 'father of the atomic bomb'.",
+    "imageURL": "https://www.biography.com/scientist/j-robert-oppenheimer"
+  },
+  {
+    "id": "79",
+    "name": "Watson",
+    "bio": "American molecular biologist, geneticist, and zoologist, co-discoverer of DNA structure.",
+    "imageURL": "https://www.biography.com/scientist/james-watson"
+  },
+  {
+    "id": "80",
+    "name": "Crick",
+    "bio": "British molecular biologist, biophysicist, and neuroscientist, co-discoverer of DNA structure.",
+    "imageURL": "https://www.biography.com/scientist/francis-crick"
+  },
+  {
+    "id": "81",
+    "name": "Bell",
+    "bio": "Scottish-born inventor of the telephone and pioneer in communication technology.",
+    "imageURL": "https://www.biography.com/inventor/alexander-graham-bell"
+  },
+  {
+    "id": "82",
+    "name": "Edison",
+    "bio": "American inventor known for the phonograph and the practical incandescent light bulb.",
+    "imageURL": "https://www.biography.com/inventor/thomas-edison"
+  },
+  {
+    "id": "83",
+    "name": "Tesla",
+    "bio": "Serbian-American engineer and inventor known for his work with AC electricity.",
+    "imageURL": "https://www.biography.com/inventor/nikola-tesla"
+  },
+  {
+    "id": "84",
+    "name": "Marconi",
+    "bio": "Italian inventor and electrical engineer known for his work on long-distance radio transmission.",
+    "imageURL": "https://www.biography.com/inventor/guglielmo-marconi"
+  },
+  {
+    "id": "85",
+    "name": "Wright",
+    "bio": "American aviation pioneers credited with inventing and building the world's first successful airplane.",
+    "imageURL": "https://www.biography.com/inventor/wright-brothers"
+  },
+  {
+    "id": "86",
+    "name": "Ford",
+    "bio": "American industrialist and founder of the Ford Motor Company, revolutionized automobile manufacturing.",
+    "imageURL": "https://www.biography.com/business-figure/henry-ford"
+  },
+  {
+    "id": "87",
+    "name": "Lovelace",
+    "bio": "English mathematician considered the first computer programmer for her work on Babbage's Analytical Engine.",
+    "imageURL": "https://www.biography.com/scientist/ada-lovelace"
+  },
+  {
+    "id": "88",
+    "name": "Franklin",
+    "bio": "American polymath known for his discoveries in electricity and inventions like the lightning rod.",
+    "imageURL": "https://www.biography.com/scientist/benjamin-franklin"
+  },
+  {
+    "id": "89",
+    "name": "Curie",
+    "bio": "Polish-French physicist and chemist who conducted pioneering research on radioactivity.",
+    "imageURL": "https://www.biography.com/scientist/marie-curie"
+  },
+  {
+    "id": "90",
+    "name": "Pasteur",
+    "bio": "French biologist renowned for his discoveries of vaccination and pasteurization.",
+    "imageURL": "https://www.biography.com/scientist/louis-pasteur"
+  },
+  {
+    "id": "91",
+    "name": "Mendel",
+    "bio": "Austrian scientist and monk, founder of the modern science of genetics.",
+    "imageURL": "https://www.biography.com/scientist/gregor-mendel"
+  },
+  {
+    "id": "92",
+    "name": "Fleming",
+    "bio": "Scottish bacteriologist who discovered penicillin.",
+    "imageURL": "https://www.biography.com/scientist/alexander-fleming"
+  },
+  {
+    "id": "93",
+    "name": "Salk",
+    "bio": "American medical researcher who developed the first successful polio vaccine.",
+    "imageURL": "https://www.biography.com/scientist/jonas-salk"
+  },
+  {
+    "id": "94",
+    "name": "Einstein",
+    "bio": "Theoretical physicist who developed the theory of relativity.",
+    "imageURL": "https://www.biography.com/scientist/albert-einstein"
+  },
+  {
+    "id": "95",
+    "name": "Newton",
+    "bio": "English mathematician and physicist who formulated the laws of motion and universal gravitation.",
+    "imageURL": "https://www.biography.com/scientist/isaac-newton"
+  },
+  {
+    "id": "96",
+    "name": "Darwin",
+    "bio": "English naturalist known for his contributions to evolutionary biology.",
+    "imageURL": "https://www.biography.com/scientist/charles-darwin"
+  },
+  {
+    "id": "97",
+    "name": "Galilei",
+    "bio": "Italian astronomer, physicist, and engineer known as the 'father of observational astronomy'.",
+    "imageURL": "https://www.biography.com/scientist/galileo-galilei"
+  },
+  {
+    "id": "98",
+    "name": "Copernicus",
+    "bio": "Renaissance-era mathematician who formulated a model of the universe placing the Sun at its center.",
+    "imageURL": "https://www.biography.com/scientist/nicolaus-copernicus"
+  },
+  {
+    "id": "99",
+    "name": "Kepler",
+    "bio": "German astronomer known for his laws of planetary motion.",
+    "imageURL": "https://www.biography.com/scientist/johannes-kepler"
+  },
+  {
+    "id": "100",
+    "name": "Faraday",
+    "bio": "English scientist who contributed to the study of electromagnetism.",
+    "imageURL": "https://www.biography.com/scientist/michael-faraday"
+  }
+]
