@@ -44,13 +44,11 @@ public final class SocketConnection: UISocketConnection, @unchecked Sendable {
     private func attemptReconnect() {
         exponentialBackoffState.reconnectTask?.cancel()
         
-        // Check if we've exceeded max attempts
         guard exponentialBackoffState.isMaxAttemptsExceeded == false else {
             logIt(.error, "🌐 max reconnect attempts (\(exponentialBackoffState.maxReconnectAttempts)) reached for socket \(urlRequest.url?.absoluteString ?? "no url")")
             return
         }
         
-        // Calculate delay with exponential backoff + jitter
         let delay: TimeInterval = exponentialBackoffState.calculateDelay()
         
         exponentialBackoffState.reconnectAttempt += 1

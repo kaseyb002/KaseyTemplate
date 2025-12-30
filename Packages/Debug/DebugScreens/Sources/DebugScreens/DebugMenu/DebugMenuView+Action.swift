@@ -72,8 +72,8 @@ extension DebugMenuView {
         case .updateAppTapped:
             didSelectNavAction(.updateApp)
             
-        case .tablePreviewTapped:
-            didSelectNavAction(.tablePreview)
+        case .groupPreviewTapped:
+            didSelectNavAction(.groupPreview)
         }
     }
 }

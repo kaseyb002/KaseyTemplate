@@ -49,6 +49,7 @@
 		EF493AE12EF62A2D009BD9D6 /* UserUI in Frameworks */ = {isa = PBXBuildFile; productRef = EF493AE02EF62A2D009BD9D6 /* UserUI */; };
 		EF493AE32EF62A2D009BD9D6 /* UtilityModel in Frameworks */ = {isa = PBXBuildFile; productRef = EF493AE22EF62A2D009BD9D6 /* UtilityModel */; };
 		EF493AE52EF62A2D009BD9D6 /* UtilityScreens in Frameworks */ = {isa = PBXBuildFile; productRef = EF493AE42EF62A2D009BD9D6 /* UtilityScreens */; };
+		EFC236612F04151C004C81C4 /* Socket in Frameworks */ = {isa = PBXBuildFile; productRef = EFC236602F04151C004C81C4 /* Socket */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -173,6 +174,7 @@
 			files = (
 				EF493AC32EF62A2B009BD9D6 /* Logger in Frameworks */,
 				EF493AA92EF62A2A009BD9D6 /* DebugUI in Frameworks */,
+				EFC236612F04151C004C81C4 /* Socket in Frameworks */,
 				EF493AC12EF62A2B009BD9D6 /* LocalSettingsUI in Frameworks */,
 				EF493AD72EF62A2C009BD9D6 /* SampleData in Frameworks */,
 				EF493AC92EF62A2B009BD9D6 /* MediaModel in Frameworks */,
@@ -325,6 +327,7 @@
 				EF493AE02EF62A2D009BD9D6 /* UserUI */,
 				EF493AE22EF62A2D009BD9D6 /* UtilityModel */,
 				EF493AE42EF62A2D009BD9D6 /* UtilityScreens */,
+				EFC236602F04151C004C81C4 /* Socket */,
 			);
 			productName = KaseyTemplate;
 			productReference = EF4935C92EEE0F69009BD9D6 /* KaseyTemplate.app */;
@@ -964,6 +967,10 @@
 		EF493AE42EF62A2D009BD9D6 /* UtilityScreens */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = UtilityScreens;
+		};
+		EFC236602F04151C004C81C4 /* Socket */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Socket;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

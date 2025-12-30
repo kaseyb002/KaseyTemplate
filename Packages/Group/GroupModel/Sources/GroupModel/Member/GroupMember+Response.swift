@@ -3,7 +3,7 @@ import Foundation
 extension GroupMember {
     public init(response: GroupMemberResponse) {
         self.init(
-            groupID: response.tableID,
+            groupID: response.groupID,
             userID: response.userID,
             created: response.created,
             username: response.username,

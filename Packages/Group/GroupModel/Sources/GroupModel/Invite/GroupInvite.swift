@@ -48,7 +48,7 @@ public struct GroupInvite: Equatable, Decodable, Sendable {
     public init(from decoder: any Decoder) throws {
         let container = try decoder.container(keyedBy: CodingKeys.self)
         self.id = try container.decode(GroupInviteID.self, forKey: .id)
-        self.groupID = try container.decode(GroupID.self, forKey: .tableID)
+        self.groupID = try container.decode(GroupID.self, forKey: .groupID)
         self.sponsorUserID = try container.decode(UserID.self, forKey: .sponsorUserID)
         self.code = try container.decode(String.self, forKey: .code)
         let isOneTime: Bool = try container.decode(Bool.self, forKey: .isOneTime)

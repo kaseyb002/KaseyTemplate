@@ -14,7 +14,7 @@ public struct GroupSettings: Equatable, Codable, Sendable {
     
     public init(from decoder: any Decoder) throws {
         let container = try decoder.container(keyedBy: CodingKeys.self)
-        self.groupID = try container.decode(GroupID.self, forKey: .tableID)
+        self.groupID = try container.decode(GroupID.self, forKey: .groupID)
         self.audioChannelID = try container.decodeIfPresent(String.self, forKey: .audioChannelID)
         self.backgroundImageURL = try container.decodeIfPresent(URL.self, forKey: .backgroundImageURL)
     }

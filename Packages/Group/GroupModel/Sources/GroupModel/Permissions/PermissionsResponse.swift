@@ -27,12 +27,7 @@ public struct PermissionsResponse: Equatable, Codable, Sendable {
             canEditSettings: permissions.contains(.editSettings),
             canSendInvite: permissions.contains(.invite),
             canRemoveMember: permissions.contains(.removeMember),
-            canSitPlayerOut: permissions.contains(.sitPlayerOut),
-            canForceMove: permissions.contains(.forceMove),
-            canPlay: permissions.contains(.play),
             canChat: permissions.contains(.chat),
-            canDeal: permissions.contains(.deal),
-            canAdjustChips: permissions.contains(.adjustChips)
         )
     }
 }
@@ -55,11 +50,6 @@ extension Set<GroupPermission> {
             case .removeMember:
                 if response.canRemoveMember {
                     permissions.insert(.removeMember)
-                }
-                
-            case .forceMove:
-                if response.canForceMove {
-                    permissions.insert(.forceMove)
                 }
                 
             case .editSettings:

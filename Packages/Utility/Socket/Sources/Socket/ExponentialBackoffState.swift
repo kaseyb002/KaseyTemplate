@@ -18,10 +18,10 @@ struct ExponentialBackoffState: Equatable, Sendable {
     }
     
     func calculateDelay() -> TimeInterval {
-        let exponentialDelay = baseDelay * pow(2.0, Double(reconnectAttempt))
-        let cappedDelay = min(exponentialDelay, maxDelay)
-        let jitter = Double.random(in: 0...0.3) * cappedDelay
-        let delay = cappedDelay + jitter
+        let exponentialDelay: TimeInterval = baseDelay * pow(2.0, Double(reconnectAttempt))
+        let cappedDelay: TimeInterval = min(exponentialDelay, maxDelay)
+        let jitter: TimeInterval = Double.random(in: 0...0.3) * cappedDelay
+        let delay: TimeInterval = cappedDelay + jitter
         return delay
     }
 }

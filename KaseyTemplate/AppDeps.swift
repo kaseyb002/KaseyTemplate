@@ -16,6 +16,7 @@ import MediaDataStore
 import MediaScreens
 import NotificationsClient
 import NotificationsDataStore
+import Socket
 import UserClient
 import UserDataStore
 import UtilityScreens
@@ -70,7 +71,16 @@ final class AppDeps {
             hostAddress: httpHostAddress,
             jsonDecoder: jsonDecoder,
         )
-        let unauthedSOcket
+        let socketConnectionPool: SocketConnectionPool = .init()
+        let unauthedSocketClient: UnauthedSocketClient = .init(
+            hostAddress: socketHostAddress,
+            pool: socketConnectionPool,
+        )
+        let authedSocketClient: AuthedSocketClient = .init(
+            pool: socketConnectionPool,
+            hostAddress: socketHostAddress,
+            authTokenProvider: authTokenProvider,
+        )
         let notificationsClient: DefaultNotificationsClient = .init(
             authedHTTPClient: authedHTTPClient,
             encoder: jsonEncoder,

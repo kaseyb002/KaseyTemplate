@@ -24,6 +24,7 @@ let package = Package(
         .package(name: "LocalSettingsModel", path: "../LocalSettingsModel"),
         .package(name: "LocalSettingsUI", path: "../LocalSettingsUI"),
         .package(name: "Logger", path: "../Utility/Logger"),
+        .package(name: "UtilityModel", path: "../Utility/UtilityModel"),
     ],
     targets: [
         .target(
@@ -36,6 +37,7 @@ let package = Package(
                 .product(name: "LocalSettingsModel", package: "LocalSettingsModel"),
                 .product(name: "LocalSettingsUI", package: "LocalSettingsUI"),
                 .product(name: "Logger", package: "Logger"),
+                .product(name: "UtilityModel", package: "UtilityModel"),
             ],
         ),
         .testTarget(

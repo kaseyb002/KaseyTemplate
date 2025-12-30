@@ -81,7 +81,7 @@ extension DebugMenuView {
             iconColor: .green,
             title: "Group Preview",
             didTap: {
-                controller.handle(action: .ui(.tablePreviewTapped))
+                controller.handle(action: .ui(.groupPreviewTapped))
             }
         )
     }

@@ -7,7 +7,7 @@ extension GroupError {
         case .playerNotFound:
             "Player was not found."
             
-        case .tableNotFound:
+        case .groupNotFound:
             "Group was not found."
             
         case .noActiveHand:
@@ -47,7 +47,7 @@ extension GroupError {
         case .playerNotFound:
             nil
             
-        case .tableNotFound:
+        case .groupNotFound:
             nil
             
         case .noActiveHand:

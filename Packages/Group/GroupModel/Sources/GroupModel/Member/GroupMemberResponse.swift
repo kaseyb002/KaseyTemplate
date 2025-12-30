@@ -24,7 +24,7 @@ public struct GroupMemberResponse: Equatable, Decodable, Sendable {
     
     public init(from decoder: any Decoder) throws {
         let container = try decoder.container(keyedBy: CodingKeys.self)
-        self.groupID = try container.decode(GroupID.self, forKey: .tableID)
+        self.groupID = try container.decode(GroupID.self, forKey: .groupID)
         self.userID = try container.decode(UserID.self, forKey: .userID)
         self.permissions = try container.decode(PermissionsResponse.self, forKey: .permissions)
         self.username = try container.decode(String.self, forKey: .username)
