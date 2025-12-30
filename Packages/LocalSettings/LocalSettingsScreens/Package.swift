@@ -1,5 +1,4 @@
 // swift-tools-version: 6.2
-// The swift-tools-version declares the minimum version of Swift required to build this package.
 
 import PackageDescription
 
@@ -12,17 +11,32 @@ let package = Package(
         .watchOS(.v6),
     ],
     products: [
-        // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
             name: "LocalSettingsScreens",
             targets: ["LocalSettingsScreens"]
         ),
     ],
+    dependencies: [
+        .package(name: "Colors", path: "../UI/Colors"),
+        .package(name: "CoreUI", path: "../UI/CoreUI"),
+        .package(name: "Extensions", path: "../Utility/Extensions"),
+        .package(name: "LocalSettingsDataStore", path: "../LocalSettingsDataStore"),
+        .package(name: "LocalSettingsModel", path: "../LocalSettingsModel"),
+        .package(name: "LocalSettingsUI", path: "../LocalSettingsUI"),
+        .package(name: "Logger", path: "../Utility/Logger"),
+    ],
     targets: [
-        // Targets are the basic building blocks of a package, defining a module or a test suite.
-        // Targets can depend on other targets in this package and products from dependencies.
         .target(
-            name: "LocalSettingsScreens"
+            name: "LocalSettingsScreens",
+            dependencies: [
+                .product(name: "Colors", package: "Colors"),
+                .product(name: "CoreUI", package: "CoreUI"),
+                .product(name: "Extensions", package: "Extensions"),
+                .product(name: "LocalSettingsDataStore", package: "LocalSettingsDataStore"),
+                .product(name: "LocalSettingsModel", package: "LocalSettingsModel"),
+                .product(name: "LocalSettingsUI", package: "LocalSettingsUI"),
+                .product(name: "Logger", package: "Logger"),
+            ],
         ),
         .testTarget(
             name: "LocalSettingsScreensTests",

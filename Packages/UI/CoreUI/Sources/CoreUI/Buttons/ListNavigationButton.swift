@@ -105,7 +105,7 @@ extension ListNavigationButton {
 //            ListNavigationButton(
 //                icon: Image(systemName: "photo"),
 //                iconColor: .blue,
-//                title: "Change table image",
+//                title: "Change group image",
 //                didTap: {}
 //            )
 //        }
@@ -118,7 +118,7 @@ extension ListNavigationButton {
             ListNavigationButton(
                 icon: Image(systemName: "photo"),
                 iconColor: .blue,
-                title: "Change table image",
+                title: "Change group image",
                 didTap: {}
             )
             .padding()

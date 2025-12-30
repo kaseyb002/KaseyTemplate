@@ -1,5 +1,4 @@
 // swift-tools-version: 6.2
-// The swift-tools-version declares the minimum version of Swift required to build this package.
 
 import PackageDescription
 
@@ -12,17 +11,44 @@ let package = Package(
         .watchOS(.v6),
     ],
     products: [
-        // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
             name: "UserScreens",
             targets: ["UserScreens"]
         ),
     ],
+    dependencies: [
+        .package(name: "AuthModel", path: "../../Auth/AuthModel"),
+        .package(name: "Colors", path: "../../UI/Colors"),
+        .package(name: "CoreUI", path: "../../UI/CoreUI"),
+        .package(name: "DebugModel", path: "../../Debug/DebugModel"),
+        .package(name: "Extensions", path: "../../Utility/Extensions"),
+        .package(name: "LocalSettingsModel", path: "../../LocalSettings/LocalSettingsModel"),
+        .package(name: "Logger", path: "../../Utility/Logger"),
+        .package(name: "MediaModel", path: "../../Media/MediaModel"),
+        .package(name: "NotificationsModel", path: "../../Notifications/NotificationsModel"),
+        .package(name: "NotificationsUI", path: "../../Notifications/NotificationsUI"),
+        .package(name: "UserModel", path: "../UserModel"),
+        .package(name: "UserUI", path: "../UserUI"),
+        .package(name: "UtilityModel", path: "../../Utility/UtilityModel"),
+    ],
     targets: [
-        // Targets are the basic building blocks of a package, defining a module or a test suite.
-        // Targets can depend on other targets in this package and products from dependencies.
         .target(
-            name: "UserScreens"
+            name: "UserScreens",
+            dependencies: [
+                .product(name: "AuthModel", package: "AuthModel"),
+                .product(name: "Colors", package: "Colors"),
+                .product(name: "CoreUI", package: "CoreUI"),
+                .product(name: "DebugModel", package: "DebugModel"),
+                .product(name: "Extensions", package: "Extensions"),
+                .product(name: "LocalSettingsModel", package: "LocalSettingsModel"),
+                .product(name: "Logger", package: "Logger"),
+                .product(name: "MediaModel", package: "MediaModel"),
+                .product(name: "NotificationsModel", package: "NotificationsModel"),
+                .product(name: "NotificationsUI", package: "NotificationsUI"),
+                .product(name: "UserModel", package: "UserModel"),
+                .product(name: "UserUI", package: "UserUI"),
+                .product(name: "UtilityModel", package: "UtilityModel"),
+            ]
         ),
         .testTarget(
             name: "UserScreensTests",

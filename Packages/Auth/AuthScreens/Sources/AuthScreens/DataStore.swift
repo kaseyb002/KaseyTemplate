@@ -1,5 +1,5 @@
 import AuthModel
-import Foundation
+import Extensions
 import Foundation
 import HTTP
 

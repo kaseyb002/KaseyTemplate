@@ -18,6 +18,7 @@ let package = Package(
     dependencies: [
         .package(name: "Logger", path: "../../Utility/Logger"),
         .package(name: "Extensions", path: "../../Utility/Extensions"),
+        .package(name: "SampleData", path: "../../Assets/SampleData"),
     ],
     targets: [
         .target(
@@ -25,6 +26,7 @@ let package = Package(
             dependencies: [
                 .product(name: "Logger", package: "Logger"),
                 .product(name: "Extensions", package: "Extensions"),
+                .product(name: "SampleData", package: "SampleData"),
             ]
         ),
         .testTarget(

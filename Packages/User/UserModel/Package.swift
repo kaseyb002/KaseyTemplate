@@ -1,5 +1,4 @@
 // swift-tools-version: 6.2
-// The swift-tools-version declares the minimum version of Swift required to build this package.
 
 import PackageDescription
 
@@ -12,17 +11,24 @@ let package = Package(
         .watchOS(.v6),
     ],
     products: [
-        // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
             name: "UserModel",
             targets: ["UserModel"]
         ),
     ],
+    dependencies: [
+        .package(name: "Extensions", path: "../../Utility/Extensions"),
+        .package(name: "Logger", path: "../../Utility/Logger"),
+        .package(name: "SampleData", path: "../../Assets/SampleData"),
+    ],
     targets: [
-        // Targets are the basic building blocks of a package, defining a module or a test suite.
-        // Targets can depend on other targets in this package and products from dependencies.
         .target(
-            name: "UserModel"
+            name: "UserModel",
+            dependencies: [
+                .product(name: "Extensions", package: "Extensions"),
+                .product(name: "Logger", package: "Logger"),
+                .product(name: "SampleData", package: "SampleData"),
+            ],
         ),
         .testTarget(
             name: "UserModelTests",

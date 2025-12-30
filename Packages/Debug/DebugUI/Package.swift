@@ -1,5 +1,4 @@
 // swift-tools-version: 6.2
-// The swift-tools-version declares the minimum version of Swift required to build this package.
 
 import PackageDescription
 
@@ -12,17 +11,28 @@ let package = Package(
         .watchOS(.v6),
     ],
     products: [
-        // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
             name: "DebugUI",
             targets: ["DebugUI"]
         ),
     ],
+    dependencies: [
+        .package(name: "Colors", path: "../UI/Colors"),
+        .package(name: "CoreUI", path: "../UI/CoreUI"),
+        .package(name: "DebugModel", path: "../DebugModel"),
+        .package(name: "Extensions", path: "../Utility/Extensions"),
+        .package(name: "Logger", path: "../Utility/Logger"),
+    ],
     targets: [
-        // Targets are the basic building blocks of a package, defining a module or a test suite.
-        // Targets can depend on other targets in this package and products from dependencies.
         .target(
-            name: "DebugUI"
+            name: "DebugUI",
+            dependencies: [
+                .product(name: "Colors", package: "Colors"),
+                .product(name: "CoreUI", package: "CoreUI"),
+                .product(name: "DebugModel", package: "DebugModel"),
+                .product(name: "Extensions", package: "Extensions"),
+                .product(name: "Logger", package: "Logger"),
+            ],
         ),
         .testTarget(
             name: "DebugUITests",

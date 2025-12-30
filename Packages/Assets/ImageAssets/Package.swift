@@ -17,18 +17,19 @@ let package = Package(
         ),
     ],
     dependencies: [
-        .package(name: "Extensions", path: "../Utility/Extensions"),
-        .package(name: "Logger", path: "../Utility/Logger"),
-        .package(name: "SampleData", path: "../SampleData"),
+        .package(name: "CoreUI", path: "../../UI/CoreUI"),
+        .package(name: "Logger", path: "../../Utility/Logger"),
+        .package(name: "Extensions", path: "../../Utility/Extensions"),
     ],
     targets: [
         .target(
             name: "ImageAssets",
             dependencies: [
+                .product(name: "CoreUI", package: "CoreUI"),
                 .product(name: "Extensions", package: "Extensions"),
                 .product(name: "Logger", package: "Logger"),
-                .product(name: "SampleData", package: "SampleData"),
-            ],
+
+            ]
         ),
         .testTarget(
             name: "ImageAssetsTests",

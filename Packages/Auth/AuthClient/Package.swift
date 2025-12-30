@@ -22,6 +22,9 @@ let package = Package(
         .package(name: "Extensions", path: "../Utility/Extensions"),
         .package(name: "HTTP", path: "../Utility/HTTP"),
         .package(name: "Logger", path: "../Utility/Logger"),
+        .package(name: "SampleData", path: "../Assets/SampleData"),
+        .package(name: "Socket", path: "../Utility/Socket"),
+        .package(url: "https://github.com/daltoniam/Starscream.git", branch: "master"),
         .package(url: "https://github.com/kaseyb002/KaseyHTTP", branch: "main"),
     ],
     targets: [
@@ -34,6 +37,9 @@ let package = Package(
                 .product(name: "HTTP", package: "HTTP"),
                 .product(name: "KaseyHTTP", package: "KaseyHTTP"),
                 .product(name: "Logger", package: "Logger"),
+                .product(name: "SampleData", package: "SampleData"),
+                .product(name: "Socket", package: "Socket"),
+                .product(name: "Starscream", package: "Starscream"),
             ],
         ),
         .testTarget(

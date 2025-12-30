@@ -1,9 +1,9 @@
+import Extensions
 import Nuke
 import NukeUI
-import Extensions
 import SwiftUI
 
-public struct UserAvatarView: View {
+public struct EntityAvatarView: View {
     private let name: String
     private let imageSource: ImageSource?
     
@@ -20,7 +20,7 @@ public struct UserAvatarView: View {
     }
 }
 
-extension UserAvatarView {
+extension EntityAvatarView {
     @MainActor
     @ViewBuilder
     private var avatarImage: some View {

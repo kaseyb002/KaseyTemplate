@@ -1,5 +1,4 @@
 // swift-tools-version: 6.2
-// The swift-tools-version declares the minimum version of Swift required to build this package.
 
 import PackageDescription
 
@@ -12,17 +11,29 @@ let package = Package(
         .watchOS(.v6),
     ],
     products: [
-        // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
             name: "NotificationsUI",
             targets: ["NotificationsUI"]
         ),
     ],
+    dependencies: [
+        .package(name: "CoreUI", path: "../../Utility/CoreUI"),
+        .package(name: "Extensions", path: "../../Utility/Extensions"),
+        .package(name: "Logger", path: "../../Utility/Logger"),
+        .package(name: "NotificationsModel", path: "../NotificationsModel"),
+        .package(url: "https://github.com/kean/Nuke", branch: "main"),
+    ],
     targets: [
-        // Targets are the basic building blocks of a package, defining a module or a test suite.
-        // Targets can depend on other targets in this package and products from dependencies.
         .target(
-            name: "NotificationsUI"
+            name: "NotificationsUI",
+            dependencies: [
+                .product(name: "CoreUI", package: "CoreUI"),
+                .product(name: "Logger", package: "Logger"),
+                .product(name: "Extensions", package: "Extensions"),
+                .product(name: "NotificationsModel", package: "NotificationsModel"),
+                .product(name: "Nuke", package: "Nuke"),
+                .product(name: "NukeUI", package: "Nuke"),
+            ]
         ),
         .testTarget(
             name: "NotificationsUITests",
@@ -30,3 +41,4 @@ let package = Package(
         ),
     ]
 )
+

@@ -1,5 +1,4 @@
 // swift-tools-version: 6.2
-// The swift-tools-version declares the minimum version of Swift required to build this package.
 
 import PackageDescription
 
@@ -12,17 +11,30 @@ let package = Package(
         .watchOS(.v6),
     ],
     products: [
-        // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
             name: "UserClient",
             targets: ["UserClient"]
         ),
     ],
+    dependencies: [
+        .package(name: "Extensions", path: "../../Utility/Extensions"),
+        .package(name: "HTTP", path: "../../Utility/HTTP"),
+        .package(name: "Logger", path: "../../Utility/Logger"),
+        .package(name: "MediaClient", path: "../../Media/MediaClient"),
+        .package(name: "UserModel", path: "../UserModel"),
+        .package(url: "https://github.com/kaseyb002/KaseyHTTP", branch: "main"),
+    ],
     targets: [
-        // Targets are the basic building blocks of a package, defining a module or a test suite.
-        // Targets can depend on other targets in this package and products from dependencies.
         .target(
-            name: "UserClient"
+            name: "UserClient",
+            dependencies: [
+                .product(name: "Extensions", package: "Extensions"),
+                .product(name: "HTTP", package: "HTTP"),
+                .product(name: "KaseyHTTP", package: "KaseyHTTP"),
+                .product(name: "Logger", package: "Logger"),
+                .product(name: "MediaClient", package: "MediaClient"),
+                .product(name: "UserModel", package: "UserModel"),
+            ]
         ),
         .testTarget(
             name: "UserClientTests",

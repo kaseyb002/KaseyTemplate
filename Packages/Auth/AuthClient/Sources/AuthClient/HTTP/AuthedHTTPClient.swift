@@ -1,16 +1,17 @@
 import AuthModel
 import AuthTokenProvider
 import Combine
+import Extensions
 import Foundation
 import HTTP
 import KaseyHTTP
 import Logger
 
 public final actor AuthedHTTPClient: HTTP.HTTPClient {
+    public private(set) var hostAddress: HostAddress
     private let httpClient: any KaseyHTTP.HTTPClient & Sendable
     private let authTokenProvider: any AuthTokenProvider
     private let didDetectUnauthorizedSubject: PassthroughSubject<Void, Never> = .init()
-    public private(set) var hostAddress: HostAddress
     private let jsonDecoder: JSONDecoder
     public var didDetectUnauthorized: AnyPublisher<Void, Never> {
         didDetectUnauthorizedSubject.eraseToAnyPublisher()

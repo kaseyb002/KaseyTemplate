@@ -60,7 +60,7 @@ extension PlayerAvatarStatusView {
     }
     
     private var playerAvatar: some View {
-        UserAvatarView(
+        EntityAvatarView(
             name: name,
             imageSource: imageSource
         )

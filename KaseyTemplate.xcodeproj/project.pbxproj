@@ -93,10 +93,12 @@
 				Auth/AuthScreens,
 				Auth/AuthTokenProvider,
 				Auth/AuthUI,
+				Chat/ChatModel,
 				Debug/DebugDataStore,
 				Debug/DebugModel,
 				Debug/DebugScreens,
 				Debug/DebugUI,
+				Group/GroupModel,
 				Home/HomeClient,
 				Home/HomeDataStore,
 				Home/HomeModel,
@@ -127,6 +129,7 @@
 				Utility/Extensions,
 				Utility/HTTP,
 				Utility/Logger,
+				Utility/Socket,
 				Utility/UtilityModel,
 				Utility/UtilityScreens,
 			);
@@ -491,6 +494,7 @@
 				DEVELOPMENT_TEAM = S66V3ZADSV;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = KaseyTemplate/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Template;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -523,6 +527,7 @@
 				DEVELOPMENT_TEAM = S66V3ZADSV;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = KaseyTemplate/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Template;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";

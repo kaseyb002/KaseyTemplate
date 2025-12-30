@@ -1,0 +1,15 @@
+{
+  "Simulator Target Bundle": "com.baughanapps.KaseyTemplate", // TODO: Replace
+  "aps": {
+    "alert": {
+      "title": "turner joined the group",
+      "subtitle": "The New Group",
+      "body": "Give them a welcome."
+    },
+    "sound": "default",
+    "category": "NEW_MEMBER_JOINED",
+    "thread-id": "group_5aa774d7-b93a-49fe-850c-9af3f348aaff",
+    "group_id": "26117e44-1cf7-440d-823c-083ffa8b6af5",
+    "user_id": "3"
+  }
+}

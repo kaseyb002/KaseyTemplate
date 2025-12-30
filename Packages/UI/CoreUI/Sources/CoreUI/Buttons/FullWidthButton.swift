@@ -75,7 +75,7 @@ public struct FullWidthButton: View {
 #Preview {
     VStack(spacing: 40) {
         FullWidthButton(
-            title: "Join table",
+            title: "Join group",
             didSelect: {}
         )
     }

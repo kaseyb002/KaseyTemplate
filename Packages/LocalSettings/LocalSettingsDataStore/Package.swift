@@ -1,5 +1,4 @@
 // swift-tools-version: 6.2
-// The swift-tools-version declares the minimum version of Swift required to build this package.
 
 import PackageDescription
 
@@ -12,21 +11,28 @@ let package = Package(
         .watchOS(.v6),
     ],
     products: [
-        // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
             name: "LocalSettingsDataStore",
-            targets: ["LocalSettingsDataStore"]
-        ),
+            targets: ["LocalSettingsDataStore"]),
+    ],
+    dependencies: [
+        .package(name: "Extensions", path: "../../Utility/Extensions"),
+        .package(name: "LocalSettingsModel", path: "../LocalSettingsModel"),
+        .package(name: "Logger", path: "../../Utility/Logger"),
+        .package(url: "https://github.com/kaseyb002/KaseyCodableStore", branch: "main"),
     ],
     targets: [
-        // Targets are the basic building blocks of a package, defining a module or a test suite.
-        // Targets can depend on other targets in this package and products from dependencies.
         .target(
-            name: "LocalSettingsDataStore"
+            name: "LocalSettingsDataStore",
+            dependencies: [
+                .product(name: "Extensions", package: "Extensions"),
+                .product(name: "KaseyCodableStore", package: "KaseyCodableStore"),
+                .product(name: "LocalSettingsModel", package: "LocalSettingsModel"),
+                .product(name: "Logger", package: "Logger"),
+            ]
         ),
         .testTarget(
             name: "LocalSettingsDataStoreTests",
-            dependencies: ["LocalSettingsDataStore"]
-        ),
+            dependencies: ["LocalSettingsDataStore"]),
     ]
 )

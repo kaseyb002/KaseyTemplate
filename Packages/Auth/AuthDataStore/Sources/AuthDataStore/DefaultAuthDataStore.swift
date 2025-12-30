@@ -2,6 +2,7 @@ import AuthClient
 import AuthModel
 import AuthTokenProvider
 import Combine
+import Extensions
 import Foundation
 import HTTP
 import Logger

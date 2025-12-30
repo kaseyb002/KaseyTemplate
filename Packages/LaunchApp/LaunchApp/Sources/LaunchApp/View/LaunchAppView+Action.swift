@@ -44,26 +44,30 @@ extension LaunchAppView {
         model.state = .loading
         
         Task {
-            do {
-                try await dataStore.setupPreAppLaunch()
-                
-                let appRequiredData: AppRequiredData = try await dataStore.appRequiredData()
+            await launchApp()
+        }
+    }
+    
+    private func launchApp() async {
+        do {
+            try await dataStore.setupPreAppLaunch()
+            
+            let appRequiredData: AppRequiredData = try await dataStore.appRequiredData()
 
-                await MainActor.run {
-                    handleNavAction(.launchApp(appRequiredData))
-                }
-                
-                model.state = .launched
-            } catch {
-                model.state = .error
-                assertionFailure(error.localizedDescription)
+            await MainActor.run {
+                handleNavAction(.launchApp(appRequiredData))
             }
             
-            do {
-                try await dataStore.setupPostAppLaunch()
-            } catch {
-                assertionFailure(error.localizedDescription)
-            }
+            model.state = .launched
+        } catch {
+            model.state = .error
+            assertionFailure(error.localizedDescription)
+        }
+        
+        do {
+            try await dataStore.setupPostAppLaunch()
+        } catch {
+            assertionFailure(error.localizedDescription)
         }
     }
 }

@@ -1,10 +1,11 @@
 import GoogleSignIn
+import Colors
 import CoreUI
 import SwiftUI
 
 extension Navigator {
     public func presentGoogleSignIn(
-        handleToken: @escaping @Sendable (Result<String, Error>) -> Void,
+        handleToken: @escaping @Sendable @MainActor (Result<String, Error>) -> Void,
         on presentingViewController: UIViewController
     ) {
         GIDSignIn.sharedInstance.signIn(withPresenting: presentingViewController) { signInResult, error in

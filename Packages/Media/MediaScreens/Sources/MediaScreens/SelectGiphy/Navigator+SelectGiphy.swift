@@ -1,5 +1,6 @@
 import GiphyUISDK
 import MediaModel
+import Colors
 import CoreUI
 import SwiftUI
 
