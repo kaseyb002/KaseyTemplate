@@ -5,7 +5,7 @@ import PackageDescription
 let package = Package(
     name: "CoreUI",
     platforms: [
-        .iOS(.v17),
+        .iOS(.v18),
         .macOS(.v10_15),
         .tvOS(.v13),
         .watchOS(.v6),
